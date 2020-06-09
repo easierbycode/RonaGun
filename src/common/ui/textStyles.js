@@ -120,11 +120,10 @@ export class TextStyles {
             style: {
                 fontFamily: TextStyles.MAIN_FONT,
                 fontSize: TextStyles.SIZE_LARGE,
-                color: "#fafcfe"
+                color: "#1ff042"
             },
             shadow: "#000000",
-            stroke: "#0000ff",
-            strokeThickness: 2
+            stroke: "#78fee0"
         };
         this.styles['POINT_BOX'] = {
             style: {
