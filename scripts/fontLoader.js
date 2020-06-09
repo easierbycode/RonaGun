@@ -1,6 +1,6 @@
 WebFontConfig = {
     google: {
-        families: ["Impact", "Flamenco", "Indie Flower", 'PT Sans']
+        families: ['Space Mono', "Impact", "Flamenco", "Indie Flower", 'PT Sans']
     }
 };
 (function() {

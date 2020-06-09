@@ -25,7 +25,7 @@ export class TextStyles {
         TextStyles.SIZE_MED2 = width / 25;
         TextStyles.SIZE_SMALL = width / 30;
         TextStyles.SIZE_SMALL2 = width / 40;
-        TextStyles.MAIN_FONT="Impact";
+        TextStyles.MAIN_FONT="Space Mono";
 
         this.styles = [];
         this.styles[TextStyles.DEFAULT] = {
