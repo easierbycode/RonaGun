@@ -167,9 +167,10 @@ export class TextStyles {
             style: {
                 fontFamily: TextStyles.MAIN_FONT,
                 fontSize: TextStyles.SIZE_MED3,
-                color: "#ffffff",
+                color: "#FAFCFE",
             },
-            shadow: "#000000"
+            shadow: "#1ff042",
+            stroke: "#0366d6"
         };
     }
 }
