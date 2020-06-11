@@ -30,7 +30,7 @@ export class SceneTitle extends BaseScene {
         //
         //
         // uncomment to turn on music
-        // this.mm.setBackgroundMusic("backgroundMusic");
+        this.mm.setBackgroundMusic("LED_Spirals");
         //
         // this.setBackground('sky');
 

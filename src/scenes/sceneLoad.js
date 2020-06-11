@@ -18,7 +18,7 @@ export class SceneLoad extends BaseScene {
     preload() {
         this.common = "./assets/";
         this.imagePath = this.common + "images/";    
-        this.audioPath = this.common + "audio/";
+        this.audioPath = this.common + "sounds/";
         /**
          *
          * make the loading bars
@@ -74,7 +74,7 @@ export class SceneLoad extends BaseScene {
         //
         //game mp3
         //
-        let mp3Array = [];
+        let mp3Array = ['LED_Spirals'];
         for (let i = 0; i < mp3Array.length; i++) {
             this.loadMp3(mp3Array[i], this.audioPath);
         }
