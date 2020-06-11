@@ -60,7 +60,7 @@ export class SceneLoad extends BaseScene {
         //
         //game jpg
         //
-        let jpgArray = ['panelBack','sky'];
+        let jpgArray = ['background', 'panelBack','sky'];
         for (let i = 0; i < jpgArray.length; i++) {
             this.loadJpg(jpgArray[i], this.imagePath);
         }

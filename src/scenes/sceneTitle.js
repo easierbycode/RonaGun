@@ -32,11 +32,14 @@ export class SceneTitle extends BaseScene {
         // uncomment to turn on music
         // this.mm.setBackgroundMusic("backgroundMusic");
         //
-        this.setBackground('sky');
+        // this.setBackground('sky');
+
+        this.setBackground( 'background' );
+
         //
         //
         this.makeAlignGrid(11, 11);
-       // this.aGrid.showNumbers();
+       this.aGrid.showNumbers();
         //
         //
         //
@@ -61,7 +64,7 @@ export class SceneTitle extends BaseScene {
         //
         //
         this.makeUi();
-        this.placeText(".:👾 Test Me 👾:.",49,"frost");
+        this.placeText(".:👾 0.200-09 👾:.",49,"frost");
 
         this.makeColorStars();
     }
