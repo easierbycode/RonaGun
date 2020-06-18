@@ -36,7 +36,7 @@ this.textStyles.regAdvanced("SCORE2", "#ffff00", TextStyles.SIZE_LARGE, "Impact"
 //
 //Add sound control panel
 super.makeSoundPanel();
-super.makeGear();
+super.makeCog();
 //
 //
 //flat button

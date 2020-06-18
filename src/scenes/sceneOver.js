@@ -46,7 +46,7 @@ export class SceneOver extends BaseScene {
     }
     makeUi() {
         super.makeSoundPanel();
-        super.makeGear();
+        super.makeCog();
     }
     playAgain() {
         this.scene.start("SceneMain");

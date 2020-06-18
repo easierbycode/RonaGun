@@ -46,7 +46,7 @@ export class SceneLoad extends BaseScene {
          *LOAD THE ASSETS
          * 
          */
-        let iconArray = ['gear', 'musicOff', 'musicOn', 'sfxOn', 'sfxOff', 'iconLock', 'iconHome', 'iconNext', 'iconPrev'];
+        let iconArray = ['cog', 'musicOff', 'musicOn', 'sfxOn', 'sfxOff', 'iconLock', 'iconHome', 'iconNext', 'iconPrev'];
         for (let i = 0; i < iconArray.length; i++) {
             this.loadIcon(iconArray[i]);
         }

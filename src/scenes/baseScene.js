@@ -119,14 +119,14 @@ export class BaseScene extends Phaser.Scene {
         });
     }
     //
-    //make a gear to open the sound panel
+    //make a cog to open the sound panel
     //
-    makeGear() {
-        let gear = this.add.image(0, 0, "gear");
-        Align.scaleToGameW(gear, .1, this);
-        this.aGrid.placeAtIndex(110, gear);
-        gear.setInteractive();
-        gear.on('pointerdown', this.toggleSoundPanel.bind(this));
+    makeCog() {
+        let cog = this.add.image(0, 0, "cog");
+        Align.scaleToGameW(cog, .1, this);
+        this.aGrid.placeAtIndex(110, cog);
+        cog.setInteractive();
+        cog.on('pointerdown', this.toggleSoundPanel.bind(this));
     }
     //
     //make the sound panel

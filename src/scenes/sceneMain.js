@@ -31,7 +31,7 @@ export class SceneMain extends BaseScene {
    
     makeUi() {
         super.makeSoundPanel();
-        super.makeGear();
+        super.makeCog();
     }
     update() {}
 }

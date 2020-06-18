@@ -79,7 +79,7 @@ export class SceneTitle extends BaseScene {
 
     makeUi() {
         super.makeSoundPanel();
-        super.makeGear();
+        super.makeCog();
     }
     startGame() {
         this.scene.start("SceneMain");
