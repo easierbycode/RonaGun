@@ -44,7 +44,7 @@ export class SceneTitle extends BaseScene {
         //
         //
       //  this.placeImage('title', 27, .8);
-        this.placeText("RonaGun",27,"TITLE_TEXT");
+        this.placeText("RonaWing",27,"TITLE_TEXT");
         //
         //
         //
