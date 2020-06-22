@@ -4,7 +4,9 @@
   "description": "A Phaser 3 Game Template for rapid game development",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack --config webpack/prod.js ",
+    "build": "rimraf docs && parcel build index.html --out-dir docs --public-url /RonaGun/",
+    "build:android": "rimraf www && parcel build index.html --out-dir www --public-url /android_asset/www/ && cordova build android",
+    "build:gh": "webpack --config webpack/prod.js ",
     "start": "webpack-dev-server --config webpack/base.js --open"
   },
   "repository": {
